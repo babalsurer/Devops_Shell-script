@@ -1,0 +1,8 @@
+#!/bin/bash
+read -p " Enter Temperature:- " temp
+#Convert temperature from degree 
+dg=`( echo "$temp -32 * 5 / 9" | bc )`
+#degree centigrade to Fahrenheit.
+fa=`( echo "$dg * 9 / 5 + 32" | bc )`
+echo " Dgree = $dg"
+echo " fahrenheit = $fa"

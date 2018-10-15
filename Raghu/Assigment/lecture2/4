@@ -1,0 +1,10 @@
+#!/bin/bash
+Explore commands read, readonly, unset, echo, exec
+read:---
+read is used to read user input.
+-p -- to diplay readed lines.
+-l -- list all readline functions
+-s -- display readline sequance
+-v -- display readline varabale
+readonly :---
+ 

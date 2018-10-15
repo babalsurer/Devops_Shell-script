@@ -1,0 +1,7 @@
+#/bain/bash
+What is Envirment Varible.?
+-->Envierment varible means which varibale are assigned by System that all varible call Envierment varibale. thath all varible  are in CAPITAL
+like $PATH
+
+
+----> To find all env use printenv command 

@@ -1,0 +1,13 @@
+#!/bin/bash
+echo "enter file name and directry name:- "
+read x
+if [ -f $x ]
+then
+echo "this is file"
+else
+echo "this is directory"
+fi
+while read line
+do 
+echo $line
+done <$x

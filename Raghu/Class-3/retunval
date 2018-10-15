@@ -1,0 +1,7 @@
+#!/bin/bash
+area () {
+y = x*x
+return y
+
+}
+area

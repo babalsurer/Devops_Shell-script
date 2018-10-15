@@ -1,0 +1,12 @@
+Explain cp command.?
+cp is used  for copy file and directory.
+cp flags:--
+-a   archive 
+-f   force
+-l   link
+-R r Recursive
+-u   Update
+-v   verbose
+-z   set selinix on destinetion file.
+___________________________________________________________________________________
+

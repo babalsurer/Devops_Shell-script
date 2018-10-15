@@ -1,0 +1,11 @@
+echo $0 Raghu
+echo $1 Raghu
+echo $2 Raghu
+echo $3 Raghu
+echo $4 Raghu
+echo $5 Raghu
+echo $6 Raghu
+echo $7 Raghu
+echo $8 Raghu
+echo $9 Raghu
+echo ${10}  Raghunath

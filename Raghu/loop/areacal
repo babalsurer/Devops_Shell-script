@@ -1,0 +1,7 @@
+#!/bin/bash
+echo  "Enter a number:- "
+read  a
+read  b
+area=`(echo "$a * $b" | bc)`
+echo "Total area is  :- $area"
+

@@ -1,0 +1,14 @@
+#!/bin/bash
+welcome () {
+read -p "Enter your Frist and Last name:- " name
+echo "Welcome to class mr. $name"
+}
+welcome
+echo ""
+course_detail () {
+echo "your Course details are below:- "
+echo "1) Unix basic"
+echo "2) unix advance"
+
+}
+course_detail

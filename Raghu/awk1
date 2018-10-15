@@ -1,0 +1,11 @@
+#!/bin/bash
+i="y"
+FILE=$(ls -ltr /input/* | awk '{ print $9 }'| xargs)
+echo $FILE
+for var in $FILE
+do 
+test=$(cat $var | awk '{ if ($3 > 35 && $4 > 35 && $5 >35 ) print $1," ==> passed "; else print $1, "==>faild"}')
+echo "$test" > /input/mark1
+set `date` $3 $4
+done
+

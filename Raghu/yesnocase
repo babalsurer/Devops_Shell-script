@@ -1,0 +1,9 @@
+read ch
+if  [[( $ch =~ n ) || ( $ch =~ N )]]
+then
+echo "NO"
+elif [[( $ch =~ y ) || ( "$ch" =~ Y )]]
+then
+echo "YES"
+fi
+

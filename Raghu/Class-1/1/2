@@ -1,0 +1,10 @@
+#What are shell.?
+Shell is program which is use for communication beetween user and kernal/ Application.
+_______________________________________________________________________________________________________________
+#Types of Shell.?
+1)Bash shell (bourne again shell)
+2)tcsh/csh Shell (tcsh is enhacnced c shell it can be used as a intractive login shell.)
+3)Ksh Shell (Ksh stands for koran shell. it is a complete powerfull high level programing  shell)
+4)ZSH Shell (ZSH is  designed to be intractive and it incorporates many features of  other linux/GNU llinux shell such as a bash)
+5) fish Shell (Fish in full stands for friendly intractive shell)
+____________________________________________________________________________________________________________________________________________

@@ -1,0 +1,23 @@
+#!/bin/bash
+i=0
+while [ $i > 4 ]
+do
+read -p "Please enter a number beetween [1:100]: "  enter
+read -p "Please enter your name : " name 
+#echo " you have 5 attempts only!" 
+if [ $enter -eq 777 ] && [ $name == "Raghu" ]
+then
+echo "You have won"
+exit
+else
+num=$((5-$i))
+if [ $num -eq 0 ]
+then
+echo "All attempts over"
+exit
+else
+echo "you have only $num attempts remaining"
+fi
+fi
+i=$(($i+1))
+done

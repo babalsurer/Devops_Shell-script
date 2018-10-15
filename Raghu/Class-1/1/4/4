@@ -1,0 +1,18 @@
+#What is softlink.?
+soft link can cross partition. soft link can create in directory and file
+#What is hardlink.?
+Hard link can cross partition.  hard link act like  mirror.  hardlink can create on only files
+___________________________________________________________________________________________
+#softlink
+softlink > soft
+####Output for Inode check 
+4649586 -rw-r--r-- 2 root root 670293 Sep 10 19:15 softlink ---orignal
+4649586 -rw-r--r-- 2 root root 670293 Sep 10 19:15 soft  --- linked
+______________________________________________________________________________________________
+#####Output for inode check.
+4649584 drwxr-xr-x 2 root root      6 Sep 10 19:14 hardlink -- orignal
+4649585 lrwxrwxrwx 1 root root      8 Sep 10 19:15 hard -> hardlink -- linked
+#hardlink
+hardlink > hard
+____________________________________________________________________________________________o
+

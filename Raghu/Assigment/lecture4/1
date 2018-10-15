@@ -1,0 +1,13 @@
+#!/bin/bash
+read -p "Enter File OR Directoory name here:- " name 
+if [ -d $name ]
+then 
+echo " This is directery"
+else 
+echo " this is not directory"
+fi
+while read line 
+do 
+echo $line 
+done < $name 
+

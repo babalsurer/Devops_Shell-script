@@ -1,0 +1,6 @@
+#!/bin/bash
+welcome () {
+read -p "Enter your Frist and Last name:- " name
+echo "Welcome to class mr. $name"
+}
+welcome

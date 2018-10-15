@@ -1,0 +1,6 @@
+#!/bin/bash                           
+while ifs=":" read -r f1 f2  
+do 
+echo "$f1"
+echo "$f2"
+done <  /etc/passwd

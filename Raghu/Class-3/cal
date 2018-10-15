@@ -1,0 +1,23 @@
+#/bin/bash
+i=y
+echo "Enter Frist number:- "
+read n1
+echo "Enter second number:- "
+read n2
+while [ $i = "y" ]  
+do 
+echo "chose one from below list"
+echo "1)Sum"
+echo "2)minimum"
+echo "3)multiple"
+read ch
+case $ch in
+1)sum=`echo $n1 + $n2 | bc`
+echo "Your result is:- " $sum;;
+2)sum=`echo $n1 - $n2 | bc`
+echo "Your result is:- " $sum;;
+3)sum=`echo  $n1 \* $n2 | bc`
+echo "Your result is:- " $sum;;
+esac
+exit
+done

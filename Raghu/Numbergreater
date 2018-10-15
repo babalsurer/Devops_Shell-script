@@ -1,0 +1,28 @@
+#!/bin/bash
+read -p "Please  enter valid number: " a
+read -p "Please  enter valid number: " b
+read -p "Please  enter valid number: " c
+if [ $a -gt $b ] && [ $a -gt $c ]
+then
+echo "$a is greatest"
+  if [ $b -gt $c ]
+  then
+  echo "$a is greteast"
+  else
+  echo "$c is smallest"
+  fi
+elif [ $b -gt $a ] && [ $b -gt $c ]
+then 
+echo "$b is greatest"
+  if [ $a -gt $c ]
+  then
+  echo "$a is greatest"
+  else
+  echo "$c is smallest"
+  fi
+elif  [ $c -gt $a ] && [ $c -gt $b ]
+then
+echo "$c is  greatest"
+else
+echo "$c is smallest"
+fi

@@ -1,0 +1,31 @@
+#!/bin/bash
+read -p "Please Enter  Frist  Number :- " a
+read -p "Please Enter  Second Number :- " b
+read -p "Please Enter  Third  Number :- " c 
+
+if [ $a -gt $b ]  && [ $b -gt $c ]
+then 
+     echo  "$a is grratstest "
+fi
+if  [ $b -gt $c ] 
+then
+     echo "$a  is  gratest "
+else 
+     echo " $c is smallest "
+elif [ $b  -gt  $a ]  && [ $b -gt $c ]
+then
+      echo "$b is greatest"
+fi
+if  [ $a -gt $c ]
+then
+     echo "$a is greatest"
+else
+     echo "$c is smalest "
+elif [ $c -gt $a ] &&  [ $a -gt $b ]
+then
+       echo "$c is greatest "
+else 
+        echo " $c is smallest"
+fi
+fi
+

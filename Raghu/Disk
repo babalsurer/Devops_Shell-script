@@ -1,0 +1,12 @@
+#!/bin/bash
+MAX=15
+SPACE="$( df -kh | grep -i  / | awk '{ print $5 }'| head -n 1 | awk  -F"%" '{print $1}')"
+echo $SPACE
+echo $MAX
+if   [ $MAX -gt $SPACE ]
+then
+echo "mail -s D "isk Space aletrt" raghubabalsure@gmail.com"
+else
+echo "bad"
+fi
+

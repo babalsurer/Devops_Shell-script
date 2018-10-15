@@ -1,0 +1,12 @@
+#!/bin/bash
+welcome() {
+read -p "Please Enter your First and last name:- " name 
+echo "Welcome in the class mr. $name "
+}
+welcome
+course_details() {
+echo " Course Details is"
+echo "1) linux study"
+echo "2) linux advanced"
+}
+course_details

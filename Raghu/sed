@@ -1,0 +1,46 @@
+ 750  sed -n '/root/p' /etc/passwd > test --- to redirect edited output
+  751  cat test
+  752  vimdiff  /etc/passwd  test ----- to get diff between 2 files 
+  753  sed -n '1~2 p' /etc/passwd --- skip liine
+  754  sed -e 's_/bin/bash_ /bin/ksh_' /etc/passwd  --- replace 
+  755  sed -e 's_/bin/ksh_ /bin/bash_' /etc/passwd
+  756  sed -e 's_/bin/ksh_ /bin/bash_' /etc/passwd/w test --repalce and redirect replaced in file 
+  757  sed -e 's_/bin/ksh_ /bin/bash_' /etc/passwd /w test
+  758  cat test
+  759  sed -e 's_/bin/ksh_ /bin/bash_' /etc/passwd /w  test
+  760  cat test
+  761  > tes
+  762  sed -e 's_/bin/ksh_ /bin/bash_w file1.txt' /etc/passwd
+  763  ls -ltr
+  764  cat file.txt
+  765  cat file1.txt
+  766  sed -e 's_/bin/bash_ /bin/ksh_w file1.txt' /etc/passwd
+  767  cat file1.txt
+  768  sed -e 's_/bin/ksh_ /bin/bash_w file1.txt' /etc/passwd
+  769  cat file.txt
+  770  cat file1.txt
+  771  mobile
+  772  vim mobile
+  773  ls
+  774  sed -e 's/[1-3]{3} /($) mobile
+  775  sed -e 's/[1-3]{3}' /($) mobile
+  776  sed -e 's/[1-3]{3}' ($) mobile
+  777  sed -e 's/^[0-9]\{3\}/(&)/'  mobile
+  778  sed -e 's/)[0-9]\{6\}/&-/'  mobile
+  779  sed -e 's/^[0-9]\{3\}/(&)/'  mobile
+  780  sed -e 's/^[0-9]\{3\}/(&)/'  mobile | sed -e 's/)[0-9]\{3}/&-/' -- bracket frist 3  number
+  781  sed -e 's/^[0-9]\{3\}/(&)/'  mobile | sed -e 's/)[0-9]/{3}/&-/'
+  782  sed -e 's/^[0-9]\{3\}/(&)/'  mobile | sed -e 's/)[0-9]\{3}/&-/' mobile.txt  -- replace after some word 
+  783  sed -e 's/^[0-9]\{3\}/(&)/'  mobile | sed -e 's/)[0-9]\{3\}/&-/' mobile.txt
+  784  touch mobil.txt
+  785  sed -e 's/^[0-9]\{3\}/(&)/'  mobile | sed -e 's/)[0-9]\{3\}/&-/' mobile.txt
+  786  mv mobil.txt mobile.txt
+  787  sed -e 's/^[0-9]\{3\}/(&)/'  mobile | sed -e 's/)[0-9]\{3\}/&-/' mobile.txt
+  788  cat mobile.txt 1
+  789  cat mobile.txt
+  790  sed -e 's/^[0-9]\{3\}/(&)/'  mobile | sed -e 's/)[0-9]\{3\}/&-/'
+  791  vim sed
+  792  history
+
+sed -e 's/\(.*)\)\(.*-\)\(.*$\)/ contrycode \1 STDcode \2 number \3/' fomattedNum
+

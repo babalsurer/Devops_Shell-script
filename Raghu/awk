@@ -1,0 +1,3 @@
+#!/bin/bash
+awk beegin {fs=":";shell}
+#!?bin{print $1,$2} { print NR "record "} /etc/passwd

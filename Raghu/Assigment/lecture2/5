@@ -1,0 +1,4 @@
+#!/bin/bash
+read -p "Please Enter your Full Name:- " name 
+echo "Welcome Mr. $name"
+

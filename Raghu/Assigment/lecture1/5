@@ -1,0 +1,4 @@
+#/bin/bash
+What is alis in unix.?
+--> alias means make shortcut of command like rsync ---> mh 
+----> to alais  command go to  ~/.bahsrc and enter ur command  alias command  and orignal command.

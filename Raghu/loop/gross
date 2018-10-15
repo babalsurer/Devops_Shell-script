@@ -1,0 +1,11 @@
+#!/bin/bash
+a=10
+b=12
+read -p " Entr your basic sallry:- " basic
+if [ $basic -gt 1000 ]
+then
+      salary=`(echo  $basic \* $a \* $b / 100 | bc) `
+      echo "your gross salary is = $salary "
+else 
+echo " your basic salary should above 1000. Please check your basic salayr."
+fi

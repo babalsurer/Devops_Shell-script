@@ -1,0 +1,22 @@
+#!/bin/bash
+for i in  jasmin  louts rose
+do
+if [ $i = jasmin ]
+then
+echo "jasmin color is Read"
+else
+echo " your may be doing wrong"
+fi
+  if [ $i = louts ]
+then 
+echo "louts cloro is Yeslow"
+else   
+echo " your may be doing wrong"
+fi 
+if [ $i = rose ]
+then
+echo "rose color is white"
+else 
+echo " your may be doing wrong"
+fi
+done

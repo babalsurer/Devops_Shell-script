@@ -1,0 +1,10 @@
+#!/bin/bash
+What is softlink.?
+--> soflink can cross partition. if u will delete  softlink   orignal file will be delete 
+---> to create softlink use ln -s <file name> <softlink file path>
+
+
+What is Hardlink.?
+--> hardlink can not cross parttion. if u delete hardlink only hardlink will be deleted.
+---> to create hardlink use ln <file path >  hardlink file name >
+
